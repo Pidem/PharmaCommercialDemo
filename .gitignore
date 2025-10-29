@@ -1,3 +1,8 @@
+# Env variables
+.env
+
+
+# Bigger Files
 data/pharma_sales.db
 *.csv
 *.png

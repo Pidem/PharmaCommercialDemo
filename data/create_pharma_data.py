@@ -18,7 +18,7 @@ def create_pharma_database():
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS sales (
-            sale_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            smind INTEGER PRIMARY KEY AUTOINCREMENT,
             product_id INTEGER,
             region TEXT,
             country TEXT,
